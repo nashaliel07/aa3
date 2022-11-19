@@ -1,0 +1,97 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    body {
+        background-image: url(https://f8n-production.s3.amazonaws.com/creators/profile/ei6v4nav1-foundation-background-gif-2-gif-cbqz2c.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: #c6d8e4;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+      }
+      
+      
+      
+      header {
+        background-color: #942446d3;
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(220, 220, 240);
+      }
+
+      .cajaTitle        {
+        padding: 20px;
+      }
+      .contenedorLogo {
+        display: flex;
+        align-items: center;
+      }
+      
+      .Logo {
+        width: auto;
+        height: 80px;
+        padding: 8px;
+      }
+
+      .cajaPes  {
+        background-color: #942446d3;
+        padding: 30px 30px;
+        margin-top: 14%;
+        margin-bottom: 14%;
+        padding: 5%;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(220, 220, 240);
+    }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      
+      }
+      
+      li a {
+        font-size: 30px;
+        font-weight: 900;
+        color: black;
+        padding: 60px;
+        text-decoration: none;
+      }
+      
+      
+      li a:hover {
+        background-color: #c6d8e4;
+      }
+
+
+
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: #942446d3;
+      }
+      
+      .parrafoFooter {
+        font-weight: 900;
+        color: rgb(220, 220, 240);
+        text-align: right;
+        padding-right: 20px;
+      }
